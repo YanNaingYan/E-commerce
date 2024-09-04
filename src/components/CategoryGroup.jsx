@@ -26,7 +26,7 @@ const CategoryGroup = () => {
         <p className="font-heading mb-2">Select Categories</p>
         <div
           id="categoryList"
-          className="flex gap-3 select-none overflow-hidden"
+          className="flex gap-3 select-none lg:overflow-hidden overflow-auto"
         >
           <Category catName="All" />
           {!isloading ? (

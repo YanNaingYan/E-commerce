@@ -18,7 +18,7 @@ const Header = () => {
     setText("");
   };
   return (
-    <header className="border-b-2 z-40 fixed w-full bg-white border-neutral-600">
+    <header className="border-b-2 z-40 w-full fixed  bg-white border-neutral-600">
       <Container>
         <div className="flex justify-between items-center py-3">
           <div className="brand">
